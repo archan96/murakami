@@ -1,0 +1,226 @@
+html {
+  --colorOne: #00ff8c;
+  --colorTwo: #fe0172;
+  --headingText: #2d2e31;
+  --blackText: rgba(0, 0, 0, 0.8);
+  --whiteText: rgba(255, 255, 255, 0.9);
+}
+
+.container {
+  width: 100%;
+  height: 90vh;
+  position: relative;
+  overflow: hidden;
+  background-color: var(--colorOne);
+}
+
+.page {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 9;
+}
+
+/*CAT DESIGN*/
+/*CAT DESIGN*/
+/*CAT DESIGN*/
+
+.backCatSec {
+  position: absolute;
+  width: 69vh;
+  height: 150vh;
+  margin-top: -1vh;
+  right: 5vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.backCatOut {
+  margin-top: -220vh;
+}
+
+.catIMG {
+  width: 100%;
+  height: 92vh;
+  background: url("../images/cat2.svg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.secondColor {
+  width: 100%;
+  height: 59vh;
+  position: absolute;
+  bottom: -57vh;
+  background-color: var(--colorTwo);
+}
+
+/*CAT DESIGN*/
+/*CAT DESIGN*/
+/*CAT DESIGN*/
+
+/*TEXT DESIGN*/
+/*TEXT DESIGN*/
+.bannerTextSec {
+  position: absolute;
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  opacity: 1;
+}
+
+.banerTextEaseOut {
+  transform: translateY(-120vh);
+  height: 240vh;
+}
+
+.bannerTextTop p {
+  font-size: 4em;
+  font-family: "Blanka";
+  color: var(--headingText);
+}
+
+.bannerTextBtm {
+  width: 100%;
+  height: 45vh;
+}
+
+.bannerTextBtm p {
+  font-size: 30vh;
+  line-height: 15vh;
+  text-align: center;
+  font-family: "Blanka";
+  color: var(--headingText);
+}
+
+.bannerTextTop {
+  width: 70%;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+p.G {
+  position: absolute;
+  font-family: "Blanka";
+  color: var(--headingText);
+  font-size: 90vh;
+  line-height: 60vh;
+  left: 10vh;
+  top: 1vh;
+  opacity: 0.2;
+}
+
+p.Gout {
+  opacity: 0;
+}
+
+/*.bannerTextSec div {
+  border: 1px solid white;
+}*/
+/*TEXT DESIGN*/
+/*TEXT DESIGN*/
+
+/*BANNER img SEC*/
+/*BANNER img SEC*/
+
+.bannerImgSec {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.bannerOutline {
+  position: absolute;
+  width: 100vh;
+  height: 100vh;
+  background: url("../images/outline.svg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  z-index: 1;
+}
+
+.bannerImg1080 {
+  position: absolute;
+  width: 99vh;
+  height: 99vh;
+  background: url("../images/1080w/1080.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  z-index: 2;
+  margin-top: -8vh;
+}
+.bannerImg2160 {
+  position: absolute;
+  width: 99vh;
+  height: 99vh;
+  background: url("../images/2160w/2160.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  z-index: 2;
+  margin-top: -8vh;
+}
+
+.bannerImageOut {
+  margin-top: 100vh;
+}
+
+/*.bannerImgSec div {
+  border: 1px solid white;
+}*/
+
+/*BANNER img SEC*/
+/*BANNER img SEC*/
+
+/*PAGE ONE ENDS*/
+/*PAGE ONE ENDS*/
+/*PAGE ONE ENDS*/
+/*PAGE ONE ENDS*/
+/*PAGE ONE ENDS*/
+/*PAGE ONE ENDS*/
+/*PAGE ONE ENDS*/
+/*PAGE ONE ENDS*/
+
+/*.page div {
+  border: 1px solid white;
+}*/
+
+/*RED BOX*/
+/*RED BOX*/
+/*RED BOX*/
+
+.redBox {
+  position: absolute;
+  width: 90vw;
+  height: 70vh;
+  background-color: var(--colorTwo);
+  z-index: 1;
+  transition: 1s;
+  transition-timing-function: cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
+
+.redBox.three {
+  left: 50vw;
+  bottom: -30vh;
+  transform: rotate(25deg);
+  transform-origin: top left;
+}
+
+/*THIRD PASS IN*/
+.redBox.thirdOut {
+  transform: rotate(45deg);
+  bottom: -70vh;
+}
+
+/*RED BOX*/
+/*RED BOX*/
+
+.hide {
+  display: none;
+}

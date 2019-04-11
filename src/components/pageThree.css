@@ -1,0 +1,88 @@
+.bookOneImgSec {
+  position: absolute;
+  width: 90vh;
+  height: 90vh;
+}
+
+.bookOneShadow {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: url("../images/2160w/shadowBook.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+/*ANIMATION */
+
+.bookOneShadowOut {
+  margin-left: -95vh;
+}
+
+.bookOneImg1080 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: url("../images/1080w/bookOne2.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.bookOneImg2160 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: url("../images/2160w/bookOne2.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.bookOneImgOut {
+  margin-left: -95vh;
+}
+
+.BookDetals {
+  position: absolute;
+  width: 45vw;
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  opacity: 1;
+}
+
+.BookDetals > p {
+  font-family: "Times New Roman";
+  color: var(--whiteText);
+}
+.BookDetals > p > span {
+  font-weight: bold;
+}
+
+.BookDetals > p:nth-child(1) {
+  font-size: 8vh;
+  line-height: 8vh;
+  font-style: italic;
+}
+.BookDetals > p:nth-child(2) {
+  width: 60%;
+  font-size: 2vh;
+  line-height: 2vh;
+}
+.BookDetals > p:nth-child(3),
+.BookDetals > p:nth-child(4) {
+  font-size: 2vh;
+  line-height: 2vh;
+}
+
+.DetailsOne {
+  top: 60vh;
+  left: 50vw;
+}
+
+.DetailsOneHeight {
+  height: 35vh;
+}
+.DetailsOneOut {
+  top: 135vh;
+  height: 35vh;
+}
