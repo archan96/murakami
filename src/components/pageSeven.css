@@ -1,0 +1,223 @@
+/*PAGE SEVEN BACK IMG*/
+
+.murakamiImgSec {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.murakamiBackImg1080 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("../images/1080w/mr.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.murakamiBackImg2160 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("../images/2160w/mr.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.murakamiBackImgOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--colorOne);
+  opacity: 0.47;
+}
+
+/*PAGE SEVEN BACK IMG*/
+
+/*QUOTES*/
+.Quotes {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 35vh;
+  line-height: 35vh;
+  transform: skew(-10deg);
+  position: absolute;
+  color: rgba(255, 255, 255, 1);
+  top: 0;
+  left: -2vh;
+  cursor: default;
+  opacity: 1;
+  transition: 0.5s;
+  transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.Quotes.fade {
+  top: 5vh;
+  opacity: 0;
+}
+
+.fullscreenOverlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+/*QUOTES*/
+
+/*GREEN OVERLAY*/
+.GreenOverlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: var(--colorOne);
+  top: 0;
+  left: 0;
+}
+
+.GreenOverlay.active {
+  width: 0%;
+}
+/*GREEN OVERLAY*/
+
+/*QUOTES*/
+/*QUOTES*/
+.QuoteCards {
+  width: 30vw;
+  height: 20vh;
+  position: absolute;
+  left: 18vh;
+  top: 25vh;
+}
+
+.QuoteCard {
+  width: 28.5vw;
+  height: 17vh;
+  position: absolute;
+  transition: 0.5s;
+  opacity: 1;
+  transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.QuoteCard:nth-child(1) {
+  background-color: var(--colorOne);
+  bottom: 0;
+  right: 0;
+}
+.QuoteCard:nth-child(2) {
+  background-color: var(--colorTwo);
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.QuoteCard.QuoteCardOut {
+  margin-top: 17vh;
+  opacity: 0;
+}
+
+.Quote {
+  width: 80%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  opacity: 1;
+  transition: 0.5s;
+  transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.Quote > p:nth-child(1) {
+  font-size: 2.5vh;
+  line-height: 2.6vh;
+  font-family: "Times New Roman", Times, serif;
+  color: rgba(255, 255, 255, 1);
+  transform: skew(-10deg);
+}
+
+.Quote > p:nth-child(2) {
+  margin-top: 1vh;
+  text-align: right;
+  font-size: 2.5vh;
+  line-height: 2.6vh;
+  font-family: "Times New Roman", Times, serif;
+  color: rgba(255, 255, 255, 1);
+  transform: skew(-10deg);
+}
+
+.quotecardText > .Quote {
+  height: 150%;
+  opacity: 0;
+  margin-top: 17vh;
+}
+
+/*QUOTES*/
+/*QUOTES*/
+
+/*social Incons*/
+/*social Incons*/
+.fanClub {
+  width: 20vh;
+  height: 7vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  overflow: hidden;
+  bottom: 4vh;
+  right: 5vh;
+}
+
+.SocialIcns {
+  width: 5vh;
+  height: 5vh;
+  cursor: pointer;
+  transition: 0.5s;
+  transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.fb {
+  background: url("../images/icons/fb.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.fb.out {
+  transform: translateY(6vh);
+}
+
+.insta {
+  background: url("../images/icons/insta.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.insta.out {
+  transform: translateY(6vh);
+}
+
+.tweet {
+  background: url("../images/icons/tweet.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.tweet.out {
+  transform: translateY(6vh);
+}
+
+.SocialIcns:hover {
+  transform: translateY(-1vh);
+}
+/*social Incons*/
+/*social Incons*/

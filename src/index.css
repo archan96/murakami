@@ -1,7 +1,7 @@
 body {
   margin: 5vh;
   padding: 0;
-  font-family: "Times New Roman", "Blanka";
+  font-family: "Times New Roman", "Blanka", "Roboto";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

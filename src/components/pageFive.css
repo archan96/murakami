@@ -1,0 +1,69 @@
+.bookThree {
+  right: 0;
+}
+
+/*SHADOW DESIGN*/
+.bookThreeShadow {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: url("../images/2160w/shadowBook.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin-left: 12vh;
+  transition: 0.5s;
+  transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+  opacity: 0.5;
+}
+
+.bookThreeShadowOut {
+  margin-left: 95vh;
+}
+/*SHADOW DESIGN*/
+
+/*IMAGE DESIGN*/
+/*IMAGE DESIGN*/
+.bookThreeImg1080 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: url("../images/1080w/bookThree.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  transition: 0.5s;
+  transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.bookThreeImg2160 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: url("../images/2160w/bookThree.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  transition: 0.5s;
+  transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.bookThreeImgOut {
+  margin-left: 95vh;
+}
+/*IMAGE DESIGN*/
+/*IMAGE DESIGN*/
+
+/*TEXT design*/
+/*TEXT design*/
+.DetailsThree {
+  bottom: 35vh;
+  left: 12vw;
+}
+
+.DetailsThreeHeight {
+  height: 35vh;
+}
+
+.DetailsThreeOut {
+  bottom: 95vh;
+}
+
+/*TEXT design*/
+/*TEXT design*/

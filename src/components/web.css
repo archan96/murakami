@@ -214,12 +214,133 @@ p.Gout {
 
 /*THIRD PASS IN*/
 .redBox.thirdOut {
+  transform-origin: top left;
   transform: rotate(45deg);
   bottom: -70vh;
 }
 
+/*FOUR PAGE*/
+.redBox.pageFour {
+  width: 180vw;
+  height: 140vh;
+  left: -130vw;
+  transform-origin: top right;
+  transform: rotate(150deg);
+  bottom: -105vh;
+}
+
+/*Five PAGE*/
+.redBox.pageFive {
+  width: 180vw;
+  height: 200vh;
+  left: -80vw;
+  bottom: -330vh;
+}
+
+/*Six PAGE*/
+.redBox.pageSix {
+  width: 180vw;
+  height: 250vh;
+  left: -290vw;
+  bottom: -412vh;
+}
+
+/*SEVEN*/
+
+.redBox.pageSeven {
+  width: 180vw;
+  height: 250vh;
+  left: -330vw;
+  bottom: -530vh;
+}
+
 /*RED BOX*/
 /*RED BOX*/
+
+/*RED BAR*/
+/*RED BAR*/
+
+.redBar {
+  width: 90vw;
+  height: 12vh;
+  position: absolute;
+  background-color: var(--colorTwo);
+  z-index: 1;
+  transition: 1s;
+  transition-timing-function: cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
+
+.redBar.four {
+  right: -50vw;
+  bottom: 30vh;
+  transform: rotate(-30deg);
+}
+
+.redBar.fourOut {
+  right: -90vw;
+  bottom: -12vh;
+}
+
+.redBar.five {
+  width: 122vw;
+  right: 45vw;
+  bottom: 45vh;
+}
+.redBar.six {
+  height: 20vh;
+  right: 40vw;
+}
+
+.redBar.seven {
+  right: 100vw;
+  bottom: 100vh;
+}
+
+/*RED BAR*/
+/*RED BAR*/
+
+/*MUSIC*/
+.music {
+  width: 4vh;
+  height: 4vh;
+  position: absolute;
+  background: url("../images/soundOn.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  bottom: 2vh;
+  left: 2vh;
+  cursor: pointer;
+  z-index: 99999;
+  opacity: 0.6;
+  transition: 0.5s;
+  transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.music:hover {
+  opacity: 1;
+}
+
+.musicOff {
+  width: 4vh;
+  height: 4vh;
+  position: absolute;
+  background: url("../images/soundOff.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  bottom: 2vh;
+  left: 2vh;
+  cursor: pointer;
+  z-index: 99999;
+  opacity: 0.6;
+  transition: 0.5s;
+  transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.musicOff:hover {
+  opacity: 1;
+}
+
+/*MUSIC*/
 
 .hide {
   display: none;

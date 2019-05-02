@@ -1,0 +1,67 @@
+.bookFour {
+  right: 0;
+}
+
+/*SHADOW DESIGN*/
+.bookFourShadow {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: url("../images/2160w/shadowBook.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  opacity: 0.5;
+  margin-left: 5vh;
+  transition: 0.5s;
+  transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.bookFourShadowOut {
+  margin-left: 95vh;
+}
+/*SHADOW DESIGN*/
+
+/*IMAGE DESIGN*/
+/*IMAGE DESIGN*/
+.bookFourImg1080 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: url("../images/1080w/bookFour.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  transition: 0.5s;
+  transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.bookFourImg2160 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: url("../images/2160w/bookFour.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  transition: 0.5s;
+  transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.bookFourImgOut {
+  margin-left: 95vh;
+}
+/*IMAGE DESIGN*/
+/*IMAGE DESIGN*/
+
+/*TEXT DESIGN*/
+/*TEXT DESIGN*/
+
+.DetailsFour {
+  left: 20vh;
+  top: 55vh;
+}
+
+.DetailsFourHeight {
+  height: 35vh;
+}
+
+.DetailsFourOut {
+  top: 95vh;
+}

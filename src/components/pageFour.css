@@ -1,0 +1,60 @@
+/*SHADOW DESIGN*/
+.bookTwoShadow {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: url("../images/2160w/shadowBook.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin-left: -5vh;
+  opacity: 0.5;
+}
+
+.bookTwoShadowOut {
+  margin-left: -95vh;
+}
+/*SHADOW DESIGN*/
+
+/*IMAGE DESIGN*/
+/*IMAGE DESIGN*/
+.bookTwoImg1080 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: url("../images/1080w/bookTwo.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.bookTwoImg2160 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: url("../images/2160w/bookTwo.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.bookTwoImgOut {
+  margin-left: -95vh;
+}
+/*IMAGE DESIGN*/
+/*IMAGE DESIGN*/
+
+/*TEXT design*/
+/*TEXT design*/
+.DetailsTwo {
+  top: 52vh;
+  left: 55vw;
+  height: 28vh;
+}
+
+.DetailsTwoHeight {
+  height: 40vh;
+}
+
+.DetailsTwoOut {
+  top: 140vh;
+}
+
+/*TEXT design*/
+/*TEXT design*/

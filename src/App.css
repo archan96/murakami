@@ -27,6 +27,19 @@ input:active {
   display: none;
 }
 
+@font-face {
+  font-family: "Blanka";
+  src: url("./fonts/Blanka-Regular.otf");
+}
+@font-face {
+  font-family: "Times New Roman";
+  src: url("./fonts/times.ttf");
+}
+@font-face {
+  font-family: "Century Gothic";
+  src: url("./fonts/GOTHIC.TTF");
+}
+
 p {
   display: block;
   margin-block-start: 0;
