@@ -1,0 +1,118 @@
+.loader {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(255, 255, 255, 1);
+  display: flex;
+  justify-content: center;
+  z-index: 99999999999999999;
+}
+
+.loaderContent {
+  width: 15vw;
+  height: 30vh;
+  position: absolute;
+  top: 43.5vh;
+}
+
+.loadingCatSec {
+  width: 100%;
+  height: 17vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.LoadCatImg {
+  position: absolute;
+  width: 12vh;
+  height: 12vh;
+  align-self: center;
+  background: url("../images/catLogo.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.LoadCatEyes {
+  position: absolute;
+  width: 12vh;
+  height: 12vh;
+  align-self: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.eyeCircle {
+  width: 2vh;
+  height: 2vh;
+  border-radius: 1.5vh;
+  margin-top: 0.3vh;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.eyeCircle:nth-child(1) {
+  margin-right: 0.8vh;
+}
+
+.eyePupil {
+  width: 0.8vh;
+  height: 0.8vh;
+  border-radius: 0.4vh;
+  background: rgba(255, 255, 255, 1);
+  transition: 1s;
+  transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.loadingTexts {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.loadingTexts > p:nth-child(1) {
+  margin-top: 2vh;
+  font-family: "Blanka";
+  font-size: 2.5vh;
+  color: #fe0101;
+  letter-spacing: 0.5vh;
+}
+
+.loadingTexts > p span {
+  animation-name: hueChange;
+  animation-iteration-count: infinite;
+  animation-duration: 2s;
+  animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+@keyframes hueChange {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.loadingTexts > p:nth-child(2) {
+  margin-top: 3vh;
+  font-family: "Century Gothic";
+  font-size: 1.8vh;
+  color: #fe0101;
+  letter-spacing: 0vh;
+}

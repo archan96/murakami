@@ -26,6 +26,11 @@ class Web extends Component {
   }
 
   componentDidMount() {
+    document.addEventListener(
+      "readystatechange",
+      () => document.readyState == "complete" && this.props.handleLoad()
+    );
+
     this.windowHeight();
     window.addEventListener("resize", this.windowHeight());
 
@@ -37,15 +42,19 @@ class Web extends Component {
           }),
         500
       );
-
-    this.state.pageNo === 1 &&
-      (document.title = "Murakami - Do You Speak Magic");
-
-    this.state.play && document.getElementById("bgSound").play();
   }
 
   componentDidUpdate() {
+    this.props.page === 2 &&
+      this.state.play &&
+      document.getElementById("bgSound").play();
+
     this.state.pageNo === 1 &&
+      this.props.page === 2 &&
+      document.getElementById("cLoader").classList.add("hide");
+
+    this.state.pageNo === 1 &&
+      this.props.page === 2 &&
       (document.title = "Murakami - Do You Speak Magic");
     this.state.pageNo === 2 && (document.title = "About Murakami");
     this.state.pageNo === 3 && (document.title = "Kafka on the Shore");
@@ -1182,6 +1191,51 @@ class Web extends Component {
     return (
       <>
         <div className="container" onMouseMove={this._onMouseMove}>
+          {/**LOADING PAGE */}
+          {/**LOADING PAGE */}
+          {this.state.pageNo <= 1 && (
+            <>
+              <div className="ContentLoader" id="cLoader">
+                <div className="MurakamiImg" />
+                <div className="bookOneShadow" />
+                <div
+                  className={
+                    this.state.h > 1080 ? "bookOneImg2160" : "bookOneImg1080"
+                  }
+                />
+                <div className="bookTwoShadow" />
+                <div
+                  className={
+                    this.state.h > 1080 ? "bookTwoImg2160" : "bookTwoImg1080"
+                  }
+                />
+                <div className="bookThreeShadow" />
+                <div
+                  className={
+                    this.state.h > 1080
+                      ? "bookThreeImg2160"
+                      : "bookThreeImg1080"
+                  }
+                />
+                <div className="bookFourShadow" />
+                <div
+                  className={
+                    this.state.h > 1080 ? "bookFourImg2160" : "bookFourImg1080"
+                  }
+                />
+                <div
+                  className={
+                    this.state.h > 1080
+                      ? "murakamiBackImg2160"
+                      : "murakamiBackImg1080"
+                  }
+                />
+              </div>
+            </>
+          )}
+          {/**LOADING PAGE */}
+          {/**LOADING PAGE */}
+
           {/**FIRST PAGE */}
           {/**FIRST PAGE */}
           {/**FIRST PAGE */}
@@ -1732,8 +1786,8 @@ class Web extends Component {
 
           {/**AUDIO */}
           {/**AUDIO */}
-          <audio src={mp3_file} type="audio/mp3" id="bgSound" autoPlay loop />
-          <audio src={whoosh} type="audio/mp3" id="whoosh" autoPlay={false} />
+          <audio src={mp3_file} type="audio/mp3" id="bgSound" loop />
+          <audio src={whoosh} type="audio/mp3" id="whoosh" />
           {/**AUDIO */}
           {/**AUDIO */}
 
