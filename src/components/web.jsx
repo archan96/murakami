@@ -1575,21 +1575,33 @@ class Web extends Component {
 
                 {/**SOCIAL MEDIA */}
                 <div className="fanClub facClubOut" id="fanClub">
-                  <div
-                    className="SocialIcns fb out"
-                    id="fcfb"
-                    title="Facebook"
-                  />
-                  <div
-                    className="SocialIcns insta out"
-                    id="fcinsta"
-                    title="Instagram"
-                  />
-                  <div
-                    className="SocialIcns tweet out"
-                    id="fctweet"
-                    title="twitter"
-                  />
+                  <a
+                    href="https://www.facebook.com/MurakamiFanClub/"
+                    target="_blank"
+                  >
+                    <div
+                      className="SocialIcns fb out"
+                      id="fcfb"
+                      title="Facebook"
+                    />
+                  </a>
+                  <a
+                    href="https://www.instagram.com/MurakamiFanClub/"
+                    target="_blank"
+                  >
+                    <div
+                      className="SocialIcns insta out"
+                      id="fcinsta"
+                      title="Instagram"
+                    />
+                  </a>
+                  <a href="https://twitter.com/MurakamiFanClub" target="_blank">
+                    <div
+                      className="SocialIcns tweet out"
+                      id="fctweet"
+                      title="twitter"
+                    />
+                  </a>
                 </div>
                 {/**SOCIAL MEDIA */}
               </div>
@@ -1651,22 +1663,39 @@ class Web extends Component {
                     CREATIVE DIRECTOR <span>XYNES HUB</span>
                   </p>
                   <div className="socialIcons">
-                    <div
-                      className="ncSocialIcn tranEaseInOutSine git ncSocialIcnOut"
-                      id="ncGit"
-                    />
-                    <div
-                      className="ncSocialIcn tranEaseInOutSine tweet ncSocialIcnOut"
-                      id="ncTwt"
-                    />
-                    <div
-                      className="ncSocialIcn tranEaseInOutSine insta ncSocialIcnOut"
-                      id="ncInst"
-                    />
-                    <div
-                      className="ncSocialIcn tranEaseInOutSine fb ncSocialIcnOut"
-                      id="ncFb"
-                    />
+                    <a href="https://github.com/xynes-hub" target="_blank">
+                      <div
+                        className="ncSocialIcn tranEaseInOutSine git ncSocialIcnOut"
+                        id="ncGit"
+                      />
+                    </a>
+
+                    <a href="https://twitter.com/admin_xynes" target="_blank">
+                      <div
+                        className="ncSocialIcn tranEaseInOutSine tweet ncSocialIcnOut"
+                        id="ncTwt"
+                      />
+                    </a>
+
+                    <a
+                      href="https://instagram.com/archan.ray2011"
+                      target="_blank"
+                    >
+                      <div
+                        className="ncSocialIcn tranEaseInOutSine insta ncSocialIcnOut"
+                        id="ncInst"
+                      />
+                    </a>
+
+                    <a
+                      href="https://www.facebook.com/raydajunior"
+                      target="_blank"
+                    >
+                      <div
+                        className="ncSocialIcn tranEaseInOutSine fb ncSocialIcnOut"
+                        id="ncFb"
+                      />
+                    </a>
                   </div>
                 </div>
                 {/**NAME CARD */}
